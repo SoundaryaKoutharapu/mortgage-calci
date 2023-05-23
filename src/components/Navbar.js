@@ -1,6 +1,16 @@
+import AppBar from '@mui/material/AppBar';
+import Toolbar from '@mui/material/Toolbar';
+import Typography from '@mui/material/Typography';
+
 const NavBar = () => {
   return (
-    <div>Navbar</div>
+    <AppBar position="static">
+      <Toolbar>
+        <Typography variant="h5" component="div" sx={{ color: 'yellowgreen' }}>
+          Bank of React
+        </Typography>
+      </Toolbar>
+    </AppBar>
   )
 }
-export default NavBar
+export default NavBar 

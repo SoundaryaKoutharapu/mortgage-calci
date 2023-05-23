@@ -4,4 +4,13 @@ import { createTheme } from '@mui/material/styles';
   palette: {
     mode: 'dark',
   },
+
+  typography: {
+    h5:
+    {
+      letterSpacing:'5px', 
+      fontFamily:'roboto'
+    }
+  }
+ 
 });
