@@ -1,6 +1,8 @@
+import SliderComponent from "./common/SliderComponent"
+
 const SliderSelect = () => {
   return (
-    <div>SliderSelect</div>
+    <SliderComponent/>
   )
 }
 export default SliderSelect
