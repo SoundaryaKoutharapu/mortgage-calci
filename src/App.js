@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import Navbar from './components/Navbar';
 import Result from './components/Result';
 import SliderSelect from './components/SliderSelect';
